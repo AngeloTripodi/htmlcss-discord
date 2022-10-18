@@ -46,6 +46,11 @@ button{
     border-radius: 20px;
 }
 
+.register-button{
+    background-color: #7289da;
+    color: white;
+}
+
 .button-big{
     font-size: 1.2rem;
     border: none;
@@ -261,19 +266,15 @@ div.big-box-inside img{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 10vh;
     width: 70%;
     margin: 0 auto;
-    background-color: aquamarine;
 }
 
 .logo-section-footer{
-    background-color: brown;
     padding: 1rem 0.5rem;
 }
 
 .button-section{
-    background-color: brown;
     padding: 1rem 0.5rem;
 }
 
