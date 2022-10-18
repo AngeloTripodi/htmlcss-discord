@@ -16,7 +16,7 @@ header{
 }
 
 footer{
-    background-color: rgb(7, 0, 18);
+    background-color: #23272a;
     padding: 1rem 0;
 }
 
@@ -26,8 +26,15 @@ li{
      padding-right: 1.5rem;
 }
 
+div.hr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 hr{
-    color: white;
+    width: 70%;
+    color: #7289da;
     margin: 2rem;
 }
 
@@ -236,20 +243,18 @@ div.big-box-inside img{
 }
 
 .footer-first{
+    padding-top: 3rem;
     display: flex;
-    height: 50vh;
     width: 70%;
     margin: 0 auto;
 }
 
 .big-section-footer{
-    background-color: brown;
     width: 30%;
 }
 
 .small-section-footer{
     width: 17.5%;
-    background-color: greenyellow;
 }
 
 .footer-second{
@@ -271,3 +276,55 @@ div.big-box-inside img{
     background-color: brown;
     padding: 1rem 0.5rem;
 }
+
+p.icon-down{
+    color:  white;
+    padding-bottom: 1rem;
+}
+
+.icon-down::after {
+    content: "\25BC";
+}
+.icon-down::before {
+    
+    background-image: url(../img/ita.png);
+    background-size: 30px 20px;
+    display: inline-block;
+    width: 30px; 
+    height: 20px;
+    content:"";
+    vertical-align: middle;
+    
+    
+}
+
+div.big-section-footer h1{
+    color:#7289da ;
+    padding-bottom: 1.5rem;
+}
+
+
+div.small-section-footer ul{
+    display: flex;
+    flex-direction: column;
+}
+
+div.small-section-footer li{
+    color: white;
+    padding-bottom: .5rem;
+}
+
+div.small-section-footer li:first-child{
+    color: #7289da;
+    font-weight: 600;
+}
+
+.fa {
+    width: 35px;
+    font-size: 25px!important;
+    color: white;
+    text-align: left;
+    text-decoration: none;
+
+
+  }
