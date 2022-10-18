@@ -77,6 +77,22 @@ div.text-hero p{
     
 }
 
+div.right-side h1,
+div.right-side p{
+    color: #23272a;
+}
+
+div.right-side h1{
+    font-size: 3.2rem;
+    padding-bottom: 1.5rem;
+}
+
+div.right-side p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+    
+}
+
 .header-sub{
     display: flex;
     width: 70%;
@@ -152,19 +168,23 @@ div.text-hero p{
     height: 70vh;
     padding: 4rem 0;
     margin: 0 auto;
-    
 }
 
 .left-side{
-    background-color: cornflowerblue;
     flex-basis: 65%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .right-side{
-    background-color: pink;
     flex-basis: 35%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
 }
 
 .section-big-box{
