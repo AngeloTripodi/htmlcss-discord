@@ -5,12 +5,13 @@
 }
 
 body{
-  
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 header{
-    background-color: lightblue;
-    padding: 1rem 0;
+    background-color: #255ee9;
+    padding: 0.5rem 0 1rem 0;
     
 }
 
@@ -21,7 +22,8 @@ footer{
 
 
 li{
-    list-style-type: none;    
+    list-style-type: none;
+     padding-right: 1.5rem;
 }
 
 hr{
@@ -29,11 +31,55 @@ hr{
     margin: 2rem;
 }
 
+button{
+    background-color: white;
+    border: none;
+    padding: 0.6rem 1rem;
+    color: black;
+    border-radius: 20px;
+}
+
+.button-big{
+    font-size: 1.2rem;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+
+}
+.white-button::before{
+    content: "\2193";
+    margin-right: 0.5rem;
+}
+.white-button{
+    background-color: white;
+    color: black;
+    margin-right: 2rem;
+}
+
+.black-button{
+    background-color: #23272a;
+    color: white;
+}
+
+div.text-hero h1{
+    font-size: 4rem;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+div.text-hero p{
+    color: white;
+    font-size: 1.2rem;
+    padding-bottom: 2rem;
+    line-height: 2rem;
+    padding-left:  5rem;
+    padding-right: 5rem;
+    
+}
 
 .header-sub{
     display: flex;
     width: 70%;
-    background-color: orange;
     margin: 0 auto;
 }
 /* da togliere, serve solo per far vedere i bordi */
@@ -65,23 +111,30 @@ hr{
     padding: 1rem 0.5rem;
 }
 
-.flex {
+.flex-ul{
     display: flex;
-    
+    color: white;
 }
 
+
+
+
 .hero-section{
-    background-color: blue;
+    background-image: url(../img/jumbo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 60vh;
     padding: 4rem 0;
 }
 
 .text-hero{
-    background-color: violet;
     width: 50%;
     height: 100%;
     margin: 0 auto;
-    padding-top: 2rem;
+    padding-top: 3.5rem;
+    text-align: center;
+    
     
 
 }
