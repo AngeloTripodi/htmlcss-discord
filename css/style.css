@@ -46,10 +46,18 @@ button{
     border-radius: 30px;
 
 }
-.white-button::before{
+.white-button::before,
+.lightblue::before{
     content: "\2193";
     margin-right: 0.5rem;
 }
+
+.lightblue{
+    background-color: #8ea1e1;
+    color: white;
+    margin-right: 2rem;
+}
+
 .white-button{
     background-color: white;
     color: black;
@@ -78,19 +86,39 @@ div.text-hero p{
 }
 
 div.right-side h1,
-div.right-side p{
+div.right-side p,
+div.big-box-inside h1,
+div.big-box-inside p,
+div.big-box-inside h2{
     color: #23272a;
 }
 
-div.right-side h1{
+div.right-side h1,
+div.big-box-inside h1{
     font-size: 3.2rem;
     padding-bottom: 1.5rem;
 }
 
-div.right-side p{
+div.right-side p,
+div.big-box-inside p{
     font-size: 1.2rem;
-    line-height: 2rem;
-    
+    line-height: 2rem;   
+}
+
+div.big-box-inside p{
+    padding-left: 10rem ;
+    padding-right: 10rem;
+}
+
+.new-adventure{
+    font-size: 2rem;
+    background-image: url(../img/stars.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 5rem 3rem 0 2rem;
+    margin-bottom: 2rem;
+
 }
 
 .header-sub{
@@ -193,10 +221,18 @@ div.right-side p{
 }
 
 .big-box-inside{
-    background-color: green;
     width: 70%;
-    height: 90vh;
+    height: 100vh;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+div.big-box-inside img{
+    width: 85%;
 }
 
 .footer-first{
